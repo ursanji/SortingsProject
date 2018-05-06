@@ -20,8 +20,15 @@ public class SelectionSort {
 		
 		int[] array = {64, 25, 12, 22, 11, 32, 5, 90, 45, 11};
 		
+		System.out.println("Array Before sorting: ");
+		for (int a : array) {
+			System.out.print(a + " ");
+		}
+		System.out.println();
+		
 		selectionSort(array);
 		
+		System.out.println("Array After Sorting: ");
 		for(int a: array) {
 			System.out.print(a + " ");
 		}
